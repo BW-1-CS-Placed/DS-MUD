@@ -16,6 +16,9 @@ django-cors-headers = "*"
 django-rest-api = "*"
 Django = "*"
 django-heroku = "*"
+psycopg2-binary = "*"
+dj-database-url = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"
