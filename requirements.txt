@@ -1,0 +1,9 @@
+Django
+djangorestframework
+python-decouple
+gunicorn
+django-rest-auth
+django-allauth
+pusher
+django-cors-headers
+django-rest-api
