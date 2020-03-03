@@ -1,0 +1,13 @@
+*.vscode
+tmp
+
+*.log
+local_settings.py
+*.sqlite3
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+.env
