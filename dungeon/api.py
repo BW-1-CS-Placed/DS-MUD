@@ -86,7 +86,12 @@ def rooms(request):
     for i in range(len(room_objects)):
         rooms_list.append({
             'id': room_objects[i].id,
-            'title': room_objects[i].title
+            'title': room_objects[i].title,
+            'description': room_objects[i].description, 
+            'n_to': room_objects[i].n_to, 
+            's_to': room_objects[i].s_to, 
+            'e_to': room_objects[i].e_to, 
+            'w_to': room_objects[i].w_to 
         })
 
     return JsonResponse({'rooms': rooms_list}, safe=True)
